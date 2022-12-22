@@ -1,0 +1,309 @@
+/* headings only */
+h2 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+    color: rgb(71, 4, 215);
+
+}
+
+h3 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+    line-height: 0em;
+    color: rgb(7, 88, 4);
+
+}
+
+/* heainds only */
+
+/* menu only */
+
+.mk {
+    display: inline;
+    box-sizing: border-box;
+
+
+}
+
+#symbolimg {
+    float: top left;
+    width: 10%;
+
+    margin-top: -10px;
+}
+
+#headmk {
+    float: right;
+    width: 90%;
+    margin-top: 15px;
+
+}
+
+#headmk1 {
+    float: right;
+    width: 90%;
+    margin-top: -8px;
+
+}
+
+
+#mynav {
+    background-color: rgb(107, 105, 105);
+    border: 3px solid rgb(53, 45, 45);
+    float: right;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: -04px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#mynav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 60px;
+
+}
+
+#mynav a:hover {
+    color: aqua;
+}
+
+#sea {
+    float: right;
+    margin-top: -10px;
+
+}
+
+#sea button {
+    border-radius: 5px;
+
+}
+
+#sea input {
+    border-radius: 5px;
+}
+
+/*menu only*/
+
+/*image and vedios*/
+
+.myslides {
+    display: none;
+}
+
+#ms {
+    position: relative;
+    margin: auto;
+}
+
+.slidebutton {
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6 ease;
+    border-radius: 0 10px 10px 0;
+    user-select: none;
+    height: 150px;
+    background-color: transparent;
+}
+
+.slidebutton:hover {
+    color: black;
+}
+
+#bt-right {
+    border-radius: 10px 0 0 10px;
+    right: 0;
+}
+
+/*image and vedios*/
+
+/* joining links  */
+
+#join {
+    height: 350px;
+    width: 1450px;
+    margin: auto;
+    line-height: 2em;
+    padding-top: 40px;
+
+
+}
+
+#joinfb {
+    width: 475px;
+    height: 400px;
+    float: left;
+
+
+}
+
+#joinyt {
+    width: 480px;
+    height: 400px;
+    float: left;
+
+}
+
+#joininsta {
+    width: 480px;
+    height: 400px;
+    float: left;
+    margin: auto;
+
+}
+
+#insta {
+    border-radius: 100px;
+    margin-bottom: 60px;
+    margin-top: 4px;
+
+}
+
+#fb {
+
+    border-radius: 100px;
+    margin-bottom: 62px;
+    margin-top: 8px;
+
+}
+
+#yt {
+
+    border-radius: 100px;
+    margin-top: 4px;
+
+}
+
+h1 {
+    margin: auto;
+}
+
+.connect {
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.connect:hover {
+    text-decoration: underline;
+}
+
+#instabt {
+    margin-top: 14px;
+    border-radius: 7px;
+}
+
+#ytbt {
+    margin-top: 18px;
+    border-radius: 7px;
+}
+
+#fbbt {
+    border-radius: 7px;
+}
+
+/* lower side of page  */
+#mainfooditem {
+    margin-top: 50px;
+}
+
+#firstimg {
+    float: right;
+    width: 50%;
+}
+
+#secondimg {
+    float: left;
+    width: 50%;
+}
+
+#thirdimg {
+    float: right;
+    width: 50%;
+}
+
+#parafirst {
+    float: left;
+    width: 48%;
+}
+
+#parasecond {
+    float: right;
+    width: 48%;
+}
+
+#parathird {
+    float: left;
+    width: 48%;
+}
+
+#firstfooditem {
+    height: 500px;
+    padding: 100px;
+    background-color: burlywood;
+    border-radius: 40px;
+}
+
+#secondfooditem {
+    height: 500px;
+    padding: 100px;
+    background-color: cornflowerblue;
+    border-radius: 40px;
+}
+
+#thirdfooditem {
+    height: 500px;
+    padding: 100px;
+    background-color: aquamarine;
+    border-radius: 40px;
+}
+
+.ourclass {
+    height: 425px;
+    width: 700px;
+    border-radius: 20px;
+}
+
+.myclass {
+    background-color: beige;
+    height: 400px;
+}
+
+/* lower side of page  */
+
+#dob {
+    width: 160px;
+}
+
+.b {
+    width: 120px;
+    border-radius: 3px;
+}
+
+/* last side of page */
+#myform {
+    background-color: rgb(218, 186, 144);
+    border-top: 4px solid rgb(197, 106, 106);
+    border-bottom: 4px solid rgb(197, 106, 106);
+    padding: 10px;
+}
+
+#backtotop {
+    float: right;
+}
+
+/* last side of page S */

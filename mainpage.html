@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MAMTA'S KITCHEN</title>
+  <link rel="icon" href="mamta's kitchen.png" type="image/gif " sizes="100x100">
+  <link rel="stylesheet" href="sytle.css">
+  <style>
+    #mainphoto {
+      height: 600px;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h2 id="headmk" class="mk">MAMTA's KITCHEN</h2>
+    <h3 id="headmk1" class="mk">The Best Homemade Recipe you'll Ever Make</h3>
+    <img src="mamta's kitchen.png" alt="loading image" height="5%" width="5%" id="symbolimg" class="mk">
+    <nav id="mynav" class="mk">
+      <a href="mainpage.html">Home</a>
+      <a href="#">Recipes</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact Us</a>
+      <a id="sea">
+        <input type="search" placeholder="Search" aria-label="Search">
+        <button type="submit">Search</button>
+      </a>
+    </nav>
+  </header>
+
+
+
+
+  <br>
+
+
+  <section>
+    <div id="ms">
+      <button class="slidebutton " id="bt-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="slidebutton " id="bt-right" onclick="plusDivs(1)">&#10095;</button>
+      <img src="mainphoto2.png" alt="loading Photo wait a while" id="mainphoto" class="myslide">
+      <video width="100%" height="600px" controls class="myslide">
+        <!-- <video width="320" height="240" controls> -->
+        <source src="mainvedio.mp4" type="video/mp4">
+        <!-- <source src="movie.ogg" type= "video/ogg"> -->
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+
+
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("myslide");
+        if (n > x.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = x.length }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        x[slideIndex - 1].style.display = "block";
+      }
+    </script>
+
+
+
+
+
+
+    <div id="join">
+
+      <div id="joinfb">
+        <img src="Facebook-logo.png" alt="loading..." width="220" height="140" id="fb" style="margin-left: 100px;">
+        <h1 style="margin-left: 40px;">Cooking with Mamta's kitchen </h1>
+        <h1 style="margin-left: 100px;"></h1>
+        <p class="parain">This is my cooking page on facebook. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Velit, nostrum? Corrupti, explicabo.</p>
+        <button id="fbbt">
+          <a href="https://www.facebook.com/profile.php?id=100063911799485&mibextid=ZbWKwL" target="_blank"
+            class="connect">Get connected to fb page &raquo;</a>
+        </button>
+      </div>
+
+      <div id="joinyt">
+        <img src="youtube-logo-hd-8.png" alt="loading..." width="250" height="200" id="yt" style="margin-left: 120px;">
+        <h1 style="margin-left: 120px;">Mamta's kitchen</h1>
+        <p class="parain">This is my channel on Youtbe. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Qui, error. Lorem ipsum dolor, sit amet consectetur adipisicing
+          elit. Qui, voluptate. Lorem ipsum dolor sit amet. lil.</p>
+        <button id="ytbt">
+          <a href="https://youtube.com/@mamtaskitchen4302" target="_blank" class="connect">Get
+            connected to Youtube &raquo;</a>
+        </button>
+      </div>
+
+      <div id="joininsta">
+        <img src="instimg.jpg" alt="loading..." width="160" height="140" id="insta" style="margin-left: 140px;">
+        <h1 style="margin-left: 140px;">Mamta's kitchen</h1>
+        <p class="parain">This is my page on instagram. Lorem ipsum dolor sit, amet consectetur
+          elit adipisicing elit. Aut, modi. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Natus, maiores! Lorem ipsum dolor sit amet Lorem.</p>
+        <button id="instabt">
+          <a href="https://instagram.com/mamtas_kitchens?igshid=YmMyMTA2M2Y=" target="_blank" class="connect">Get
+            connected to insta &raquo;</a>
+        </button>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br><br>
+
+
+    <!-- lower side of page -->
+    <div id="mainfooditem">
+      <div id="firstfooditem" class="recipefooditem">
+        <h3> SPECIAL SPICY SWZEWAN RICE </h3>
+        <br>
+        <img src="swzewanriceimg.jpg" alt="lodaing wait...." width="600" height="400" id="firstimg" class="ourclass">
+        <p class="myclass" id="parafirst">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Autem sunt, hic voluptatibus officiis itaque magnam incidunt id odit numquam.
+          Eaque, expedita vitae voluptatibus tempora maiores esse enim pariatur unde sequi!
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium assumenda
+          reprehenderit repellendus doloremque natus voluptatem corporis!
+          Asperiores libero minima tempore assumenda eaque laudantium,
+          soluta nostrum adipisci aliquid doloribus unde debitis nam dolorem
+          repudiandae modi consequatur dolorum voluptas, magnam saepe inventore molestias
+          ut aut error incidunt! Assumenda architecto nam nostrum, dicta consequuntur temporibus
+          sunt odit molestias sit odio, accusantium saepe quae voluptatibus consectetur cum?
+          Rerum quisquam officia, similique veniam velit minima enim necessitatibus modi corrup
+          quo quasi sint ut? Iure cupiditate rerum pariatur ad sit odio expedita ea dicta nobi
+          saepetemporibus qui velit cum facilis magnam laboriosam ut, dolorum aperiam. Lorem ip
+          consectetur adipisicing elit. Earum doloremque quo nemo odit porro blanditiis enim ma
+          accusantium ad, officiis adipisci labore inventore cupiditate unde! Nemo, mollitia ass
+          consequuntur commodi vitae tempora maxime culpa quia nihil, porro consequatur officiis
+          molestias! Commodi blanditiis reiciendis quo! Lorem ipsum dolor, sit amet consectetur
+          porro cupiditate fugit quis nesciunt ipsa, laudantium fuga hic nam praesentium! Quo
+          deserunt fugit, tempora tempore libero enim temporibus beatae facere harum iusto quod
+          quidem totam reprehenderit non et nemo dolore quaerat dolorem expedita, magnam bl
+        </p>
+      </div><br>
+      <div id="secondfooditem" class="recipefooditem">
+        <h3> SPECIAL PAV BHEL WITH DRYFRUIT GARNISH </h3>
+        <br>
+        <img src="bhel.jpg" alt="lodaing wait...." width="600" height="400" id="secondimg" class="ourclass">
+        <p class="myclass" id="parasecond">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Autem sunt, hic voluptatibus officiis itaque magnam incidunt id odit numquam.
+          Eaque, expedita vitae voluptatibus tempora maiores esse enim pariatur unde sequi!
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium assumenda
+          reprehenderit repellendus doloremque natus voluptatem corporis!
+          Asperiores libero minima tempore assumenda eaque laudantium,
+          soluta nostrum adipisci aliquid doloribus unde debitis nam dolorem
+          repudiandae modi consequatur dolorum voluptas, magnam saepe inventore molestias
+          ut aut error incidunt! Assumenda architecto nam nostrum, dicta consequuntur temporibus
+          sunt odit molestias sit odio, accusantium saepe quae voluptatibus consectetur cum?
+          Rerum quisquam officia, similique veniam velit minima enim neces
+          quo quasi sint ut? Iure cupiditate rerum pariatur ad sit odio expedita ea dicta nobis
+          saepe temporibus qui velit cum facilis magnam laboriosam ut, dolorum aperiam. Lo
+          consectetur adipisicing elit. Dignissimos laudantium saepe maxime ipsam cumque explic
+          culpa est. Earum harum nisi ullam id tenetur adipisci. Commodi similique aspernatur
+          enim repellat architecto veritatis. Deleniti dolor sequi cumque vitae rerum eos sed cu
+          asperiores? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita nesciu
+          necessitatibus explicabo ipsam dolores modi laborum! Alias pariatur debitis at. Ex
+          voluptas est voluptatum deleniti commodi distinctio voluptates ullam eos expedita s
+          dolorem rerum voluptatem magni maiores aliquam sequi saepe eum?
+        </p>
+      </div>
+      <br>
+      <div id="thirdfooditem" class="recipefooditem">
+        <h3> SPECIAL SIZZLING PAV BAHJI KHICDI </h3>
+        <br>
+        <img src="khicdi.jpg" alt="lodaing wait...." width="600" height="350" id="thirdimg" class="ourclass">
+        <p class="myclass" id="parathird">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Autem sunt, hic voluptatibus officiis itaque magnam incidunt id odit numquam.
+          Eaque, expedita vitae voluptatibus tempora maiores esse enim pariatur unde sequi!
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium assumenda
+          reprehenderit repellendus doloremque natus voluptatem corporis!
+          Asperiores libero minima tempore assumenda eaque laudantium,
+          soluta nostrum adipisci aliquid doloribus unde debitis nam dolorem
+          repudiandae modi consequatur dolorum voluptas, magnam saepe inventore molestias
+          ut aut error incidunt! Assumenda architecto nam nostrum, dicta consequuntur temporibus
+          sunt odit molestias sit odio, accusantium saepe quae voluptatibus consectetur cum?
+          Rerum quisquam officia, similique veniam velit minima enim necessitatibus modi co
+          quo quasi sint ut? Iure cupiditate rerum pariatur ad sit odio expedita ea dicta nobis
+          saepe temporibus qui velit cum facilis magnam laboriosam ut, dolorum aperiam. Lo
+          consectetur adipisicing elit. Eius tempore culpa perspiciatis qui obcaecati delec
+          harum commodi excepturi suscipit modi soluta repellat dicta exercitationem tenetur ve
+          voluptatem accusamus architecto quae magni? Quis commodi nihil, dolore tempora ill
+          accusantium, numquam magni exercitationem. Lorem ipsum dolor, sit amet consectetur adi
+          officiis. Omnis veniam ad ipsa quisquam officia eius excepturi alias numquam rerum
+          nostrum sint blanditiis officiis. Maiores obcaecati voluptas cupiditate minus accu
+          voluptatibus fugiat, suscipit impedit esse quam ducimus magni recusan
+        </p>
+      </div><br>
+    </div><br>
+  </section>
+  <!-- end of lower page  -->
+
+  <!-- start of end side of page  -->
+  <section id="myform">
+    <form id="seggestionform">
+      <a>Provide your valuable feedback and suggestion for your favurote recipe :-</a>
+      <br><br>
+      <div>
+        <label for="name">Your Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" name="name">
+      </div>
+      <br>
+      <div>
+        <label for="contact">Phone Number&nbsp;</label>
+        <input type="number" name="contact">
+      </div>
+      <br>
+      <div>
+        <label for="email">Email Id&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="email" name="email">
+      </div>
+      <br>
+      <div>
+        <label for="DOB"  >Your Birtdate &nbsp;&nbsp;</label>
+        <input type="date" name="DOB" id="dob">
+      </div>
+      <br>
+      <div>
+        <label for="mygender">Gender:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+         <input type="radio" name="mygender">Male
+        <input type="radio" name="mygender">Female
+        <input type="radio" name="mygender">Other
+      </div>
+      <br>
+      <div>
+        <label for="suggestion">SUGGESTION AND FEEDBACKS: </label><br><br>
+        <textarea name="suggestion" cols="60" rows="6"></textarea>
+      </div>
+      <br>
+      <div>
+        <input type="button" value="Submit" class="b">
+        <input type="reset" value="Reset now" class="b">
+      </div>
+      <br>
+
+    </form>
+  </section>
+  <footer>
+    <br><br><br>
+    <a>By: &copy MamPaNil kitchen</a>
+    <a href="www.privacy.com" target="_blank">.Privacy</a>
+    <a href="www.terms.com" target="_blank">.Terms</a>
+
+    <br>
+    <a>&copy MamPaNil.tech Creation</a>
+    <a href="www.privacy.com" target="_blank">.Privacy</a>
+    <a href="www.terms.com" target="_blank">.Terms</a>
+    <a id="backtotop" href="#" type="">Back to top</a>
+  </footer>
+
+  <!-- end of the page -->
+
+</body>
+
+</html>
